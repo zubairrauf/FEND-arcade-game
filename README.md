@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-* [The concept](#the concept)
+* [The concept](#the)
 * [Instructions](#instructions)
 * [Levels](#levels)
 * [Lives](#lives)
