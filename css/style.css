@@ -1,45 +1,36 @@
 body {
-    text-align: center;
-}
-
-.banner{
     width: 100%;
-    background: #2e3d49;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.logo{
-    margin-left: 30px;
-}
-.logo img{
-    width: 50px;
-    display: inline;
-}
-.score-panel {
-    text-align: center;
-    width: 100%;
-    height: 30px;
-    padding-top: 5px;
-    margin-bottom: 10px;
-    background-color: lightgrey;
-    color: #2e3d49;
-    margin-bottom: -30px;
-}
-
-.score-panel .lives {
+    height: 100%;
     margin: 0;
     padding: 0;
-    display: inline-block;
-    margin: 0 5px 0 0;
+    background: url('../images/geometry2.png');
+    font-family: 'Coda', cursive;
+    text-align: center;
 }
 
-.score-panel .lives li {
-    list-style: none;
+header{
+   width: 100%;
+   background: #383738;
+   color: white;
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+}
+.banner{
+    margin: 0 30px 0 0;
+}
+.level{
+    margin-left: 20px;
+}
+
+.lives {
     display: inline-block;
 }
+
+/* .lives li {
+    list-style: none;
+    display: inline-block;
+} */
 
 
 /* The Modal (background) */
@@ -60,7 +51,7 @@ body {
 .success-message,
 .failure-message{
     width: 200px;
-    height: 100px;
+    height: 150px;
     position: relative;
     background-color: #fefefe;
     margin: auto;
@@ -83,5 +74,5 @@ body {
     width: 25px;
 }
 canvas{
-    margin-top: 50px;
+    margin-top: 10px;
 }

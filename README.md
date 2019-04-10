@@ -1,24 +1,20 @@
-# Cross the road
+# Classic Arcade Game Clone Project
 
 ## Table of Contents
 
-* [The-concept](#the-concept)
-* [Instructions](#instructions)
-* [Levels](#levels)
-* [Lives](#lives)
-* [Contact](#contact)
-
-## The concept
-"Cross the road" is a clone of the classic arcade game "Frogger".  Your mission is to cross the road safely without getting hit by the traffic.
+- [Instructions](#instructions)
+- [Contributing](#contributing)
 
 ## Instructions
-The game starts with 4 vehicles one the road.  Use the arrow keys to move your player left, right, up and down. There is a safe area between the two raods. You can also stop at any lane as long as there is no vehicle driving there. 
 
-## Levels
-The game starts at level 1. At each new level, there is a new vehicle added to the traffic untill it reaches 8 vehicles. After that, the speed of the vehicles gets increased for each new level. 
+Use this [rubric](https://review.udacity.com/#!/rubrics/15/view) for self-checking your submission.
 
-## Lives
-You have three lives. You lose a life each time you get hit by a vehicle. When you lose all three lives, the game is over. 
+Make sure the functions you write are **object-oriented** - either class functions (like `Player` and `Enemy`) or class prototype functions such as `Enemy.prototype.checkCollisions`. Also make sure that the keyword `this` is used appropriately within your class and class prototype functions to refer to the object the function is called upon.
 
-## Contact
-You can contact me at zubair@zubairrauf.com
+Your **README.md** file should be updated with instructions on both how to 1. Run and 2. Play your arcade game.
+
+For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+
+## Contributing
+
+This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
