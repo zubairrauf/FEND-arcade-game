@@ -8,7 +8,7 @@
 * [Lives](#lives)
 * [Contact](#contact)
 
-##The concept
+## The concept
 "Cross the road" is a clone of the classic arcade game "Frogger".  Your mission is to cross the road safely without getting hit by the traffic.
 
 ## Instructions
